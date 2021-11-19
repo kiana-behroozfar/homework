@@ -9,15 +9,22 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   height: 70px;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  align-items:center;
+ justify-content: space-evenly;
   background: cornsilk;
-  word-spacing: 250px;
+  position: fixed;
+  width: 1400px;
+  padding-right: 1;
 }
+
+
+
+
 .nav a{
   background: cornsilk;
    color: brown;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 .nav a:hover{
   font-family: cursive;
@@ -49,6 +56,7 @@ align-items: center;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  margin: 20px;
 }
 .sec .img ,.img2{
   width: 120px;
@@ -61,7 +69,7 @@ p+a:hover{
 }
 .art{
   border: ridge 8px brown;
-  margin: 70px;
+  margin: 120px;
  
 }
 .art p{
@@ -108,6 +116,7 @@ section h1{
   margin:50px 40px 20px 40px;
   padding: 120px;
  height: 20px;
+ margin: 90px;
 }
 .img1{
   width: 100px;
@@ -145,7 +154,7 @@ justify-content: space-around;
 
 .div{
   max-width: 7000px;
-  margin: 80px;
+  margin: 60px;
   padding: 50px;
   background: burlywood;
   display: flex;
@@ -176,7 +185,7 @@ justify-content: space-around;
   font-family: cursive;
 }
 .sec3{
-  margin: 30px;
+  margin: 80px;
   padding: 20px 200px 20px 200px;
 max-width: 1000px;
   background:burlywood;
@@ -217,4 +226,7 @@ margin:0 300px 46px 300px;
 }
 .tab th:hover{
 font-family: cursive;
+}
+.ol :nth-child(2n+1){
+  color:brown;
 }
