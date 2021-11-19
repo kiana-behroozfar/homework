@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
   background: burlywood;
+
+}
+*::selection{
+  color: brown;
+  background:cornsilk;
 }
 
 .nav {
