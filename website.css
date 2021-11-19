@@ -11,18 +11,26 @@
   display: flex;
   align-items:center;
  justify-content: space-evenly;
-  background: cornsilk;
+  background:cornsilk;
   position: fixed;
-  width: 1400px;
+  min-width: 400px;
+  width: 100%;
   padding-right: 1;
+}
+@media (max-width:500px){
+  .nav{
+    flex-direction: column;
+  }
+
 }
 
 
 
-
 .nav a{
+  color: brown;
   background: cornsilk;
-   color: brown;
+  
+  
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 }
@@ -71,7 +79,13 @@ p+a:hover{
 }
 .art{
   border: ridge 8px brown;
-  margin: 130px;
+  margin: 140px;
+  min-height: 200px;
+  min-width: 200px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
  
 }
 .art p{
@@ -131,7 +145,8 @@ section h1{
 display: flex;
 align-items: center;
 justify-content: space-around;
-
+border: 10px brown ridge;
+padding: 50px;
 }
 .ul{
   border-right: brown solid 2px;
