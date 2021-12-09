@@ -2,44 +2,38 @@
   margin: 0;
   padding: 0;
   background: burlywood;
-
 }
-*::selection{
+*::selection {
   color: brown;
-  background:cornsilk;
+  background: cornsilk;
 }
 
 .nav {
   color: brown;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   height: 70px;
   display: flex;
-  align-items:center;
- justify-content: space-evenly;
-  background:cornsilk;
+  align-items: center;
+  justify-content: space-evenly;
+  background: cornsilk;
   position: fixed;
   min-width: 400px;
   width: 100%;
   padding-right: 1;
 }
-@media (max-width:500px){
-  .nav{
+@media (max-width: 500px) {
+  .nav {
     flex-direction: column;
   }
-
 }
 
-
-
-.nav a{
+.nav a {
   color: brown;
   background: cornsilk;
-  
-  
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.nav a:hover{
+.nav a:hover {
   font-family: cursive;
   background: brown;
   color: burlywood;
@@ -48,23 +42,22 @@
   background-size: 20px;
 }
 
-
-.box{
-  max-width:700px ;
+.box {
+  max-width: 700px;
   background-color: burlywood;
-  margin:0 auto;
+  margin: 0 auto;
   margin-bottom: 80px;
   padding: 30px;
   height: 200px;
   display: flex;
-  justify-content:space-around;
-align-items: center;
-
+  justify-content: space-around;
+  align-items: center;
 }
 
-.sec,.sec1 {
- background: brown;
- height: 270px;  
+.sec,
+.sec1 {
+  background: brown;
+  height: 270px;
   width: 250px;
   border-radius: 8px;
   display: flex;
@@ -73,16 +66,17 @@ align-items: center;
   justify-content: space-around;
   margin: 20px;
 }
-.sec .img ,.img2{
+.sec .img,
+.img2 {
   width: 120px;
   height: 120px;
 }
-p+a:hover{
+p + a:hover {
   font-size: 20px;
-  background:burlywood;
+  background: burlywood;
   border-radius: 4px;
 }
-.art{
+.art {
   border: ridge 8px brown;
   margin: 140px;
   min-height: 200px;
@@ -91,69 +85,64 @@ p+a:hover{
   display: flex;
   justify-content: center;
   flex-direction: column;
- 
 }
-.art p{
+.art p {
   margin: 20px;
 }
-.foot{
+.foot {
   color: brown;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   background: cornsilk;
-
 }
-.foot a:hover{
-   font-family: cursive;
+.foot a:hover {
+  font-family: cursive;
   background: brown;
   color: burlywood;
   font-size: 25px;
   border-radius: 10px;
 }
-.foot1{
+.foot1 {
   background: cornsilk;
   color: brown;
 }
-.go{
+.go {
   border: brown ridge 8px;
   margin: 50px;
-  
 }
-section p{
+section p {
   margin: 30px;
 }
-section h1{
+section h1 {
   margin: 30px;
 }
 
-.sel{
+.sel {
   max-width: 1000px;
   display: flex;
-  align-items: center;
+
+  flex-wrap: wrap;
   justify-content: space-around;
+
   background: burlywood;
-  margin:50px 40px 20px 40px;
-  padding: 120px;
- height: 20px;
- margin: 120px;
 }
-.img1{
+.img1 {
   width: 100px;
   height: 140px;
 }
-.div1{
+.div1 {
   margin: 50px;
   padding-left: 100px;
-display: flex;
-align-items: center;
-justify-content: space-around;
-border: 10px brown ridge;
-padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 10px brown ridge;
+  padding: 50px;
 }
-.ul{
+.ul {
   border-right: brown solid 2px;
   height: 90px;
   padding-right: 50px;
@@ -161,21 +150,21 @@ padding: 50px;
   align-items: center;
   justify-content: center;
 }
-@media(max-width:1300px){
-  .ul{
+@media (max-width: 1300px) {
+  .ul {
     padding: 5px;
   }
 }
-@media(max-width:1244px){
-  .div1{
- flex-wrap: wrap;
+@media (max-width: 1244px) {
+  .div1 {
+    flex-wrap: wrap;
   }
-  .ul{
+  .ul {
     border-right: none;
   }
-} 
+}
 
-.div{
+.div {
   max-width: 7000px;
   margin: 60px;
   padding: 50px;
@@ -185,7 +174,7 @@ padding: 50px;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.sec2{
+.sec2 {
   width: 60px;
   height: 90px;
   background: brown;
@@ -197,26 +186,29 @@ padding: 50px;
   margin: 20px;
   padding: 34px;
 }
-.img2{
+.img2 {
   width: 100px;
   height: 120px;
 }
-.sec2 p,.sec2 a{
+.sec2 p,
+.sec2 a {
   margin: 10px;
 }
-.sec a,.sec1 a,.sec2 a:hover{
+.sec a,
+.sec1 a,
+.sec2 a:hover {
   font-family: cursive;
 }
-.sec3{
+.sec3 {
   margin: 80px;
   padding: 20px 200px 20px 200px;
-max-width: 1000px;
-  background:burlywood;
+  max-width: 1000px;
+  background: burlywood;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.div2{
+.div2 {
   width: 80px;
   height: 140px;
   margin: 30px;
@@ -227,29 +219,28 @@ max-width: 1000px;
   justify-content: space-evenly;
   flex-direction: column;
   border-radius: 9px;
-
 }
-.img3{
+.img3 {
   width: 140px;
   height: 100px;
   padding: 10px;
   background: brown;
 }
-.sec3 p:hover{
+.sec3 p:hover {
   font-family: cursive;
   border-radius: 4px;
 }
-.tab{
-margin:0 300px 46px 300px;
-  border:brown 8px ridge;
+.tab {
+  margin: 0 300px 46px 300px;
+  border: brown 8px ridge;
 }
-.tab td{
+.tab td {
   border: brown 3px solid;
   width: 460px;
 }
-.tab th:hover{
-font-family: cursive;
+.tab th:hover {
+  font-family: cursive;
 }
-.ol :nth-child(2n+1){
-  color:brown;
+.ol :nth-child(2n + 1) {
+  color: brown;
 }
