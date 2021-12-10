@@ -128,8 +128,21 @@ section p{
 section h1{
   margin: 30px;
 }
-
 .sel{
+  margin: 40px;
+ padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sec1{
+  width: 150px;
+}
+
+
+
+/* .sel{
   max-width: 1000px;
   display: flex;
   align-items: center;
@@ -139,7 +152,14 @@ section h1{
   padding: 120px;
  height: 20px;
  margin: 120px;
-}
+} */
+
+
+
+
+
+
+
 .img1{
   width: 100px;
   height: 140px;
